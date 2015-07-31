@@ -24,7 +24,7 @@ And you may use multiple names/patterns separated by commas:
 mvn -Dtest=TestSquare,TestCi*le test
 ```
 
-## Running a Set of Methods in a Single Test Class
+### Running a Set of Methods in a Single Test Class
 
 **only with Junit4.x and TestNG**
 
