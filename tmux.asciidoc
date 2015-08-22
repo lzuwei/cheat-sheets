@@ -1,0 +1,62 @@
+TMux Reference
+==============
+
+== Session Management
+
+.Session Management
+|==============================================================
+| `tmux list-sessions`                  | List Sessions
+| `tmux new -s [session-name]`          | Create new session
+| `Ctrl-b d`                            | Detach from session
+| `tmux attach -t [session-name]`       | Attach to Session
+| `tmux kill-session -t [session-name]` | Kill Session
+|==============================================================
+
+== Window Management
+
+.Window Management
+|=================================
+| `Ctrl-b c` | Create new window
+| `Ctrl-b d` | Detach current client
+| `Ctrl-b l` | Move to previously selected window
+| `Ctrl-b n` | Move to the next window
+| `Ctrl-b p` | Move to the previous window
+| `Ctrl-b &` | Kill the current window
+| `Ctrl-b ,` | Rename the current window
+| `Ctrl-b q` | Show pane numbers (used to switch between panes)
+| `Ctrl-b o` | Switch to the next pane
+| `Ctrl-b ?` | List all keybindings
+|=================================
+
+== Moving Between Windows
+
+.Moving Between Windows
+|=================================
+| `Ctrl-b n`               | Move to the next window
+| `Ctrl-b p`               | Move to the previous window
+| `Ctrl-b l`               | Move to the previously selected window
+| `Ctrl-b w`               | List all windows / window numbers
+| `Ctrl-b [window-number]` | Move to the specified window number, the
+default bindings are from 0 -- 9
+|=================================
+
+
+== Tiling Commands
+
+.Tiling Commands
+|=================================
+| `Ctrl-b %`               | Split the window vertically
+| `Ctrl-b : "split-window"` | Split window horizontally
+| `Ctrl-b o`                | Goto next pane
+| `Ctrl-b q`                | Show pane numbers, when the numbers show up
+  type the key to goto that pane
+| `Ctrl-b {`                | Move the current pane left
+| `Ctrl-b }`                | Move the current pane right
+|=================================
+
+== Make a pane its own window
+
+.Tiling Modifications
+|=====================
+| `Ctrl-b : "break-pane"` | Make a pane it's own window
+|=====================
