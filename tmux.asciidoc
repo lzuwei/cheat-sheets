@@ -45,7 +45,7 @@ default bindings are from 0 -- 9
 
 .Tiling Commands
 |=================================
-| `Ctrl-b %`               | Split the window vertically
+| `Ctrl-b %`                | Split the window vertically
 | `Ctrl-b : "split-window"` | Split window horizontally
 | `Ctrl-b o`                | Goto next pane
 | `Ctrl-b q`                | Show pane numbers, when the numbers show up
