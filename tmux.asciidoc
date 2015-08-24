@@ -60,3 +60,23 @@ default bindings are from 0 -- 9
 |=====================
 | `Ctrl-b : "break-pane"` | Make a pane it's own window
 |=====================
+
+== Install and Configure `tmux` for Mac OSX
+
+```bash
+brew install tmux
+```
+
+=== Mouse Support
+
+Only needed if you are using Terminal.app (iTerm has mouse support)
+
+1. Install SIMBL for capturing mouse events: http://www.culater.net/software/SIMBL/SIMBL.php
+2. Install MouseTermPlus for terminal mouse event: https://github.com/saitoha/mouseterm-plus
+3. Enable mouse support in `~/.tmux.conf`
+
+```bash
+set-option -g mouse-select-pane on
+set-option -g mouse-select-window on
+set-window-option -g mode-mouse on
+```
