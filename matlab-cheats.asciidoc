@@ -1,0 +1,25 @@
+Matlab Useful Commands
+======================
+
+Plotting
+--------
+
+Plotting a Function
+~~~~~~~~~~~~~~~~~~~
+
+[source,matlab]
+----
+x = [-2:0.1:2] //set range of x
+y = x.^4 - 2 * x.^2
+plot(x,y)
+----
+
+Add a plot to an existing plot
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----
+hold on //keep the current plot
+p = [-2:0.1:2]
+q = [-2:0.1:2]
+p = q
+plot(p,q)
+----
