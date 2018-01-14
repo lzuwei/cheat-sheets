@@ -52,6 +52,7 @@ default bindings are from 0 -- 9
   type the key to goto that pane
 | `Ctrl-b {`                | Move the current pane left
 | `Ctrl-b }`                | Move the current pane right
+| `Ctrl-b x`                | Kill pane
 |=================================
 
 == Make a pane its own window
